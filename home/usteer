@@ -1,0 +1,14 @@
+
+config usteer
+	option network 'lan'
+	option syslog '1'
+	option debug_level '5'
+	option ipv6 '1'
+	option roam_scan_snr '-65'
+	option roam_trigger_snr '-70'
+	option min_snr '-80'
+	option roam_scan_tries 0
+	option roam_scan_interval 5000
+	option roam_trigger_interval 180000
+	option roam_kick_delay 100
+	option signal_diff_threshold 25
